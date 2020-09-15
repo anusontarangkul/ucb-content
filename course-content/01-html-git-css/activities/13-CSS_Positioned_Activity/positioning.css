@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.box2 {
+  width: 300px;
+  background: #eee;
+  padding: 50px;
+  position: relative;
+}
+
+.main-body {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.box3 {
+  width: 100px;
+  background: #999;
+  padding: 20px;
+  position: absolute;
+}
