@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Numbers</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Loop 10 times
+      for (var i = 0; i < 10; i++) {
+        // Generate a random number between 
+        
+        // Math.floor will round down, meaning we would get a number between 0 and 9, so we'll always add 1 to bump it up.
+
+        // Math.random() => 0 range 0 to less than 1 (inclusive of 0, but not 1) 
+        // The Math.floor() function returns the largest integer less than or equal to a given number.
+
+        // Math.floor(Math.random() );
+
+        var num = Math.floor(Math.random() * 10) + 1;
+
+        // Display in console
+        console.log(num);
+      }
+    </script>
+  </body>
+</html>
